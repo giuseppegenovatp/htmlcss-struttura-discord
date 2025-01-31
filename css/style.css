@@ -53,6 +53,10 @@ nav.debug {
     height: 50px;
     background-color: #daa520;
 }
+.big-box {
+    height: 900px;
+}
+
 
 /* INIZIO header */
 
@@ -114,5 +118,45 @@ header {
     order: 1;
 }
 
-
 /* fine  MAIN */
+
+
+/* inizio  footer */
+.footer-flex {
+    display: flex;
+    padding-top:10px;
+    padding-bottom:40px;
+}
+
+.left_box {
+    background-color:#f08080;
+    flex-grow: 2;
+}
+
+.right_box {
+    background-color:#20b2aa ;
+    display: flex;
+    flex-grow: 2;
+
+}
+
+.box_grid {
+    flex-grow: 1;
+    border: 1px solid black; 
+}
+
+.footer_nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color:#7fffd4;
+    margin-top: 30px;
+}
+
+.btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* fine  footer */
