@@ -89,3 +89,30 @@ header {
 
 /* FINE HEADER */
 
+/* INIZIO  MAIN */
+
+
+.main-box {
+    width: 900px;
+}
+
+.container-flex {
+    display: flex;
+}
+
+.grand_box {
+    background-color: #1e90ff;
+    flex-grow: 2;
+}
+
+.mini_box {
+    background-color: #ffc0cb;
+    flex-grow: 1;
+}
+
+.reverse {
+    order: 1;
+}
+
+
+/* fine  MAIN */
