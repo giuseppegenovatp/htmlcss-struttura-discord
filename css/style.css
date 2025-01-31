@@ -3,3 +3,89 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* UTILITIES */
+.bg-blue {
+    background-color:#00008b;
+}
+.bg-white {
+    background-color:#ffffff ;
+}
+.bg-gray {
+    background-color:#d3d3d3 ;
+}
+.bg-azure {
+    background-color:#1e90ff ;
+}
+.bg-pink {
+    background-color:#ffc0cb ;
+}
+.bg-extra-pink{
+    background-color:#ee82ee;
+}
+.bg-green {
+    background-color:#228b22 ;
+}
+.bg-darkgray {
+    background-color:#23272a ;
+}
+
+
+.pt-pb-50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+/* UTILITIES da riuovere */
+.debug {
+    border: 2px dotted black;
+    height: 400px;
+}
+
+nav.debug {
+    border: 2px dotted black;
+    height: 50px;
+    background-color: #daa520;
+}
+
+/* INIZIO header */
+
+header {
+    background-color:#add8e6;
+    padding: 18px;
+}
+
+.nav-flex {
+    display: flex;
+    background-color:#daa520 ;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo, .login  {
+    padding: 10px;
+}
+
+
+.nav_link {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav_link li {
+    padding: 10px;
+}
+
+.nav_link li a {
+    color:#000;
+    text-decoration: none;
+}
+
+/* FINE HEADER */
+
